@@ -15,4 +15,7 @@ apply($nodes){
     provider  => 'chocolatey',
     }
   }
+
+run_command("frogsay ribbit", $nodes)
+
 }
