@@ -26,5 +26,5 @@
 .envrc
 /inventory.yaml
 #bolt files
-.run*
 modules/
+.rerun.json
