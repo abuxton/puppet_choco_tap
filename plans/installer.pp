@@ -16,6 +16,6 @@ apply($nodes){
     }
   }
 
-run_command("frogsay ribbit", $nodes)
+
 
 }
