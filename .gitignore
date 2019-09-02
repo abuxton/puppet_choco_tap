@@ -27,3 +27,4 @@
 /inventory.yaml
 #bolt files
 .run*
+modules/
