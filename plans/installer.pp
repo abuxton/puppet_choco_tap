@@ -1,4 +1,4 @@
- plan puppet_choco_tap::installer(
+plan puppet_choco_tap::installer(
    TargetSpec                                   $nodes,
    String                                       $package,
    Variant[Enum['absent', 'present'], String ]  $ensure = 'present',
@@ -15,7 +15,4 @@ apply($nodes){
     provider  => 'chocolatey',
     }
   }
-
-
-
 }
