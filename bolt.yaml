@@ -7,8 +7,9 @@ winrm:
   # password: 
   ssl-verify: false
   # tmpdir:
-  ssl: true
+  ssl: false
   # realm:
-  port: 5986
-  # port: 5985 is ssl: false
+  # port: 5986
+  ## if ssl: false
+  port: 5985 
    
