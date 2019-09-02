@@ -1,0 +1,15 @@
+groups:
+  - name: winrm_nodes
+    groups:    
+      - name: win  
+        nodes:
+          - chocowin0.classroom.puppet.com
+          - chocowin1.classroom.puppet.com
+        config:
+          transport: winrm
+    config:
+      transport: winrm
+      winrm:
+        user: Administrator
+        #password: 
+        ssl: false
