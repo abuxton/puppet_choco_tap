@@ -12,7 +12,7 @@ apply($nodes){
 apply($nodes){
   package { $package :
     ensure    => $ensure,
-    provider  => 'choco',
+    provider  => 'chocolatey',
     }
   }
 }
