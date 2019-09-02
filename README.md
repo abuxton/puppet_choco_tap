@@ -48,7 +48,6 @@ Install Bolt and create project folder as documented
 <TODO>
 
 
-
 ## Limitations
 
 Only tested against Windows Powershell, and not any other Powershell deployment
