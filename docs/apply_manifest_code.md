@@ -185,3 +185,4 @@ Ran on 2 nodes in 3.15 seconds
 # Next steps
 
 Now that you have learned about applying existing module content you can harness the power of the Puppet forge to manage infrastructure and deploy great applications!
+
